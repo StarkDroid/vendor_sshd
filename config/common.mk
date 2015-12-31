@@ -163,6 +163,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # SSHD overlays
 PRODUCT_PACKAGE_OVERLAYS := vendor/sshd/overlay/common
 
+# Theme engine
+include vendor/sshd/config/themes_common.mk
+
 # easy way to extend to add more packages
 $(call prepend-product-if-exists, vendor/extra/product.mk)
 
