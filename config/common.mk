@@ -100,6 +100,8 @@ PRODUCT_PACKAGES += \
 	Development \
 	Launcher3 \
 	SonicLauncher \
+	LockClock \
+	SSHDTuner \
 	ExactCalculator \
 	libemoji \
 	Terminal \
